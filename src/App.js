@@ -1,6 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./Shared/Header/Header";
+import Footer from "./Shared/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           {/*            <Route path="/product/:productId" element={<ProductDetail/>}/>
            */}{" "}
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );
