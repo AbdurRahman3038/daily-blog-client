@@ -1,4 +1,6 @@
 import React from 'react';
+import './Pricing.css';
+import { Table } from 'react-bootstrap';
 
 const Pricing = () => {
     return (
